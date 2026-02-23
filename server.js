@@ -63,6 +63,12 @@ app.post("/register/:camp", express.json(), (req, res) => {
   res.json({ success: true, newCount: counters[campName] });
 });
 
+// Simple root endpoint for keep-alive pings
+app.get("/", (req, res) => {
+  res.send("Hello! I am awake.");
+});
+
+
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
