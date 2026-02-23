@@ -104,7 +104,7 @@ app.get("/admin", (req, res) => {
   const counters = readCounters();
 
   let html = `
-    <h1>Camp Admin Dashboard</h1>
+    <h1>Registration Admin Dashboard</h1>
     <ul style="list-style:none; padding:0;">
   `;
 
