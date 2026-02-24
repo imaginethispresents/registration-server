@@ -78,7 +78,14 @@ app.get("/check-limit/:camp", (req, res) => {
   const counters = readCounters();
   const count = counters[campName] || 0;
 
-  res.json({ full: count >= camp.limit, count, limit: camp.limit });
+const remaining = Math.max(camp.limit - count, 0);
+
+res.json({
+  full: count >= camp.limit,
+  count,
+  limit: camp.limit,
+  remaining
+});
 });
 
 app.post("/register/:camp", express.json(), (req, res) => {
