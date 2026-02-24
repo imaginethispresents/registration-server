@@ -17,7 +17,6 @@ const COUNTERS_FILE = path.join(__dirname, "counters.json");
 
 // Define your camps and limits
 const CAMPS = {
-  week1: { limit: 5 },
   springweek1: { limit: 35 },
   springweek2: { limit: 35 },
   W20260411: { limit: 30 },	
@@ -25,13 +24,11 @@ const CAMPS = {
   summerweek1: { limit: 35 },
   summerweek2: { limit: 35 },
   summerweek3: { limit: 35 },
-  summerweek4: { limit: 35 },
-  summerA: { limit: 18 }
+  summerweek4: { limit: 35 }
 };
 
 // Optional: friendly display names
 const CAMP_PRETTY_NAMES = {
-  week1: "Week 1",
   springweek1: "Spring Week 1",
   springweek2: "Spring Week 2",
   W20260411: "Workshop Apr 11",
@@ -39,8 +36,7 @@ const CAMP_PRETTY_NAMES = {
   summerweek1: "Summer Week 1",
   summerweek2: "Summer Week 2",
   summerweek3: "Summer Week 3",
-  summerweek4: "Summer Week 4",
-  summerA: "Summer A"
+  summerweek4: "Summer Week 4"
 };
 
 // -----------------
@@ -125,7 +121,7 @@ app.get("/admin", (req, res) => {
     <table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; font-family: sans-serif;">
       <thead style="background-color:#333; color:white;">
         <tr>
-          <th>Camp</th>
+          <th>Program</th>
           <th>Count</th>
           <th>Limit</th>
           <th>Actions</th>
