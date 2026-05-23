@@ -21,14 +21,14 @@ const CAMPS = {
   springweek2: { limit: 35 },
   W20260411: { limit: 30 },	
   W20260523: { limit: 30 },	
-  W20260912earlybird: { limit: 10 },
-  W20260912: { limit: 30 },	
-  W20261107earlybird: { limit: 10 },
-  W20261107: { limit: 30 },	
   summerweek1: { limit: 35 },
   summerweek2: { limit: 35 },
   summerweek3: { limit: 35 },
-  summerweek4: { limit: 35 }
+  summerweek4: { limit: 35 },	
+  W20260912earlybird: { limit: 10 },
+  W20260912: { limit: 30 },	
+  W20261107earlybird: { limit: 10 },
+  W20261107: { limit: 30 }
 };
 
 // Optional: friendly display names
@@ -36,15 +36,15 @@ const CAMP_PRETTY_NAMES = {
   springweek1: "Spring Week 1",
   springweek2: "Spring Week 2",
   W20260411: "Workshop Apr 11",
-  W20260523: "Workshop May 23",
-  W20260912earlybird: "Workshop Sept 12 Early Bird",
-  W20260912: "Workshop Sept 12",	
-  W20261107earlybird: "Workshop Nov 7 Early Bird",
-  W20261107: "Workshop Nov 7",	
+  W20260523: "Workshop May 23",	
   summerweek1: "Summer Week 1",
   summerweek2: "Summer Week 2",
   summerweek3: "Summer Week 3",
-  summerweek4: "Summer Week 4"
+  summerweek4: "Summer Week 4",
+  W20260912earlybird: "Workshop Sept 12 Early Bird",
+  W20260912: "Workshop Sept 12",	
+  W20261107earlybird: "Workshop Nov 7 Early Bird",
+  W20261107: "Workshop Nov 7"
 };
 
 // -----------------
