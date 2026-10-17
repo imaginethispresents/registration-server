@@ -19,7 +19,11 @@ const COUNTERS_FILE = path.join(__dirname, "counters.json");
 const CAMPS = {
   W20261107earlybird: { limit: 10 },
   W20261107: { limit: 30 },
-  SS20261107: { limit: 25 }
+  SS20261107: { limit: 25 },
+  W20270109: { limit: 30 },
+  W20270213: { limit: 30 },
+  W20270410: { limit: 30 },
+  W20270522: { limit: 30 },
 };
 
 // Optional: friendly display names
@@ -27,6 +31,10 @@ const CAMP_PRETTY_NAMES = {
   W20261107earlybird: "Workshop Nov 7 Early Bird",
   W20261107: "Workshop Nov 7",
   SS20261107: "Stage Spark Nov 7",
+  W20270109: "Workshop Jan 9 - 30, 2027",
+  W20270213: "Workshop Feb 13 - Mar 6, 2027",
+  W20270410: "Workshop Apr 10 - May 1, 2027",
+  W20270522: "Workshop May 22 - Jun 12, 2027",
 };
 
 // -----------------
