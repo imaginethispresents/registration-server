@@ -35,14 +35,14 @@ const CAMPS = {
 // Optional: friendly display names
 const CAMP_PRETTY_NAMES = {
   W20261107earlybird: "Workshop Nov 7 Early Bird",
-  W20261107: "Workshop Nov 7",
+  W20261107: "Workshop Nov 7 - 28",
   W20270109: "Workshop Jan 9 - 30, 2027",
   W20270213: "Workshop Feb 13 - Mar 6, 2027",
   C20270315: "Camp Mar 15 - 19, 2027",
   C20270322: "Camp Mar 22 - 26, 2027",
   W20270410: "Workshop Apr 10 - May 1, 2027",
   W20270522: "Workshop May 22 - Jun 12, 2027",
-  SS20261107: "Stage Spark Nov 7",
+  SS20261107: "Stage Spark Nov 7, 2026",
   SS20270116: "Stage Spark Jan 16, 2027",
   SS20270220: "Stage Spark Feb 20, 2027",
   SS20270417: "Stage Spark Apr 17, 2027",
